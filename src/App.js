@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import classes from './App.module.css';
-import ProductData from './ProductData'
 import ProductPreview from './ProductPreview';
+import ProductDetails from './ProductDetails';
 
 function App() {
   return (
@@ -14,6 +14,9 @@ function App() {
       <div className={classes.MainContainer}>
         <div className={classes.ProductPreview}>
           <ProductPreview />
+        </div>
+        <div className={classes.Productdata}>
+          <ProductDetails />
         </div>
         
 

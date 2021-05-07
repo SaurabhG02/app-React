@@ -1,4 +1,4 @@
-const ProductData = {
+const Productdata = {
     title: 'FitBit 19 - The Smartest Watch',
     description: 'Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor.',
     colorOptions: [
@@ -24,6 +24,6 @@ const ProductData = {
     ]
 }
 
-Object.freeze(ProductData); //This line of code just makes your object as a constant. No values can be updated.
+Object.freeze(Productdata); //This line of code just makes your object as a constant. No values can be updated.
 
-export default ProductData;
+export default Productdata;
